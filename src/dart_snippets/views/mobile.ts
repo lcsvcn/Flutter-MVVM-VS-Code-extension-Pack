@@ -45,7 +45,7 @@ class _HomeMobile extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Mobile'),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.green,
       ),
       body: Center(
         child: Column(
