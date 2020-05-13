@@ -65,7 +65,7 @@ class _HomeMobile extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         onPressed: viewModel.increment,
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.green,
       ),
     );
   }
