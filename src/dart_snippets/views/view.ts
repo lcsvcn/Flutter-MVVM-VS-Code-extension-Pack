@@ -28,7 +28,7 @@ class ${this.className} extends StatelessWidget {
   Widget build(BuildContext context) {
     ${classPrefix}ViewModel viewModel = ${classPrefix}ViewModel();
     return ViewModelProvider<${classPrefix}ViewModel>.withConsumer(
-      viewModel: viewModel,
+      viewModelBuilder: () => viewModel,
       onModelReady: (viewModel) {
         // Do something once your viewModel is initialized
       },
